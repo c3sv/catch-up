@@ -1,0 +1,19 @@
+<mat-sidenav-container class="side-nav-container">
+  <mat-sidenav #drawer class="side-nav" fixedInViewport>
+    <mat-toolbar>Sources</mat-toolbar>
+
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <button (click) ="drawer.toggle()" aria-label="Toggle-sidenav" mat-icon-button type="button">
+        <mat-icon aria-label="Sidenav toggle icon">menu</mat-icon>
+      </button>
+      <span>CatchUp</span>
+      <span class="spacer"></span>
+      <span>
+        <app-laguage-switcher/>
+      </span>
+    </mat-toolbar>
+    <app-footer/>
+  </mat-sidenav-content>
+</mat-sidenav-container>
