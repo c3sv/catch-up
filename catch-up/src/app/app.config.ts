@@ -2,6 +2,7 @@ import {ApplicationConfig, provideBrowserGlobalErrorListeners, provideZoneChange
 import {provideHttpClient} from '@angular/common/http';
 import {provideTranslateLoader, provideTranslateService} from '@ngx-translate/core';
 import {provideTranslateHttpLoader} from '@ngx-translate/http-loader';
+import {provideZonelessChangeDetection} from '@angular/core';
 
 export const appConfig: ApplicationConfig = {
     providers: [provideBrowserGlobalErrorListeners(),
