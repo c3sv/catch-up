@@ -1,6 +1,6 @@
 import {Source} from './source.entity';
 
-export class ArticleEntity {
+export class Article {
   title:string;
   description:string;
   url:string;
