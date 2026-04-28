@@ -1,0 +1,14 @@
+{
+  "app": {
+    "title": "Catch-Up"
+  },
+  "sources": {
+    "title": "Nuevas Fuentes"
+  },
+  "articles": {
+    "title": "Principales Titulares"
+  },
+  "article": {
+    "read-more": "Leer mas"
+  }
+}
