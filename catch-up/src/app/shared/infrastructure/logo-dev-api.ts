@@ -10,6 +10,5 @@ export class LogoDevApi {
   constructor() {
   }
 
-  // TODO: Implement getUrlToLogo
-  //getUrlToLogo(source:Source)
+  // TODO: Implement getUrlToLogo getUrlToLogo(source:Source)
 }
