@@ -30,7 +30,7 @@
 }
 
 .empty-state {
-  grid-column: 1 / -1; /* Ocupa todo el ancho si no hay datos */
+  grid-column: 1 / -1;
   text-align: center;
   padding: 50px;
 }

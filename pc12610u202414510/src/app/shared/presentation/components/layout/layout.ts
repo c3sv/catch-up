@@ -10,12 +10,8 @@ import {CharacterList} from '../../../../characters/presentation/components/char
 @Component({
   selector: 'app-layout',
   imports: [
-    MatSidenavContainer,
-    MatSidenav,
     MatToolbar,
-    MatSidenavContent,
     Footer,
-    MatIcon,
     LanguageSwitcher,
     TranslatePipe,
     CharacterList
