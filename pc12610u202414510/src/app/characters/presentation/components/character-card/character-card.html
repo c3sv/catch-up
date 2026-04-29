@@ -1,0 +1,22 @@
+<mat-card class="character-card">
+  <img mat-card-image [src]="character.image" [alt]="character.name">
+  <mat-card-header>
+    <mat-card-title>{{character.name|translate}}</mat-card-title>
+    <mat-card-subtitle>{{character.species | translate}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <p><strong>{{'character.status' |translate }}:</strong> {{character.status}}</p>
+    <p><strong>{{'character.gender' |translate }}:</strong> {{character.gender}}</p>
+    <p><strong>{{'character.origin' |translate }}:</strong> {{character.origin.name}}</p>
+    <p><strong>{{'character.location' |translate }}:</strong> {{character.location.name}}</p>
+  </mat-card-content>
+
+  <mat-card-actions align="end">
+    <a mat-button [href]="character.url" target="_blank">
+      {{'character.details' | translate }}
+    </a>
+    <button mat-icon-button (click)="share(character)" [aria-label]="'character.share' | translate">
+      <mat-icon>share</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>

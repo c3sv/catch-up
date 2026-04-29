@@ -1,0 +1,36 @@
+.list-container {
+  padding: 24px;
+  max-width: 1280px;
+  margin: 0 auto; /* Centra el contenido en pantallas grandes */
+}
+
+.list-header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.character-grid {
+  display: grid;
+  /* FUERZA LAS 3 COLUMNAS */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px; /* Espacio entre tarjetas */
+}
+
+/* Responsivo: 2 columnas en tablets y 1 en celulares */
+@media (max-width: 1024px) {
+  .character-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .character-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.empty-state {
+  grid-column: 1 / -1; /* Ocupa todo el ancho si no hay datos */
+  text-align: center;
+  padding: 50px;
+}

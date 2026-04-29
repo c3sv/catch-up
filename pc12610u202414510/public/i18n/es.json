@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "Explorador de Rick and Morty"
+  },
+  "character": {
+    "title": "Personaje",
+    "gender": "Género",
+    "origin": "Origen",
+    "status": "Estado",
+    "air_date": "air_date",
+    "episode": "episode",
+    "image": "Imagen del Personaje"
+  },
+
+  "article": {
+    "title": "Latest Articles",
+    "read": "Read More"
+  },
+  "footer": {
+    "text": "© 2024 Rick and Morty Explorer. All rights reserved."
+  }
+}
